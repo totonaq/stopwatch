@@ -1,0 +1,88 @@
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
+}
+
+.App {
+  margin: 50px auto;
+  width: 600px;
+}
+
+.time-field-wrap {
+  margin-top: 20px;
+}
+.time-field-wrap {
+  align-items: baseline;
+}
+.time-field-wrap span {
+  display: inline-block;
+  font-size: 3rem;
+  text-align: center;
+  width: 45px;
+}
+.time-field-wrap span.colon {
+  width: 20px;
+}
+.time-field-wrap span.ms {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+
+.button-field-wrap {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+.button-field-wrap button {
+  background-color: transparent;
+  border: none;
+  border: 1px solid #0099dc;
+  border-radius: 3px;
+  font-size: .75rem;
+  cursor: pointer;
+  height: 25px;
+  text-transform: uppercase;
+  width: 60px;
+}
+.button-field-wrap button:active {
+  transform: scale(.95);
+}
+.button-field-wrap button.start {
+  background-color: #0099dc;
+  color: #fff;
+}
+.button-field-wrap button.record {
+  margin-left: 15px;
+}
+
+
+.record-field-wrap-headings,
+.record-field-wrap-data {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+.record-field-wrap-headings {
+  padding: 50px 20px 10px;
+}
+.record-field-wrap-data {
+  padding: 10px;
+}
+
+.record-field-wrap-headings div,
+.record-field-wrap-data div {
+  width: 33%;
+}
